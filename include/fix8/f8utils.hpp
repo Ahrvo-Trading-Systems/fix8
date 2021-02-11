@@ -458,8 +458,8 @@ public:
       if (num < static_cast<int>(match.SubCnt()))
          target = source.substr(offset + match.SubPos(num), match.SubSize(num));
 #endif
-      else
-         target.empty();
+      //else
+      //   target.empty();
       return target;
 	}
 
